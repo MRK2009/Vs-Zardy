@@ -109,7 +109,6 @@
 	<haxelib name="faxe" if='switch'/>
 	<haxelib name="discord_rpc" if="cpp"/>
 	<haxelib name="linc_luajit"/>
-	<haxelib name="hxvm-luajit" if="cpp"/>
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
 	<!-- <haxelib name="markdown" /> -->
