@@ -98,20 +98,18 @@
 	<haxedev set='webgl' />
 
 	<!--In case you want to use the addons package-->
-	<haxelib name="flixel-addons" />
-	<haxelib name="hscript" />
+	<haxelib name="flixel-addons" version="2.11.0"/>
+	<haxelib name="hscript" version="2.4.0"/>
 
 	<haxelib name="actuate" />
 	<haxelib name="extension-webm"/> <!-- Make sure to use https://github.com/KadeDev/extension-webm/ -->
 
 	<!--In case you want to use the ui package-->
-	<haxelib name="flixel-ui" />
-	<haxelib name="newgrounds"/>
+	<haxelib name="flixel-ui" version="2.4.0"/>
 	<haxelib name="faxe" if='switch'/>
-	<haxelib name="polymod"/>
-	<haxelib name="discord_rpc" if="desktop"/>
+	<haxelib name="discord_rpc" if="cpp"/>
 	<haxelib name="linc_luajit"/>
-	<haxelib name="hxvm-luajit" if="desktop"/>
+	<haxelib name="hxvm-luajit" if="cpp"/>
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
 	<!-- <haxelib name="markdown" /> -->
